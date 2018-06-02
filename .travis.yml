@@ -1,0 +1,12 @@
+language: go
+go:
+  - 1.6
+
+sudo: false
+
+branches:
+  only:
+    - master
+
+script:
+    - go build . && go test -v ./...

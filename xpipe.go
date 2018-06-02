@@ -9,7 +9,7 @@ import (
 	"os/user"
 	"path/filepath"
 
-	"github.com/lmika/xpipe"
+	"github.com/lmika/xpipe/impl"
 )
 
 // Flag for describing the expression

@@ -12,7 +12,7 @@ get_deps:
 	@echo ok
 
 install:
-	go install ./xpipe
+	go install
 
 doc:
 	bin/makedoc.rb > PROCESSES.md

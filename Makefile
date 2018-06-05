@@ -18,8 +18,8 @@ install:
 
 gorelease:
 	git commit -m "$(DESCRIPTION)"
-	git tag -d $(VERSION) -m $(DESCRIPTION)
-	git tag -a $(VERSION) -m $(DESCRIPTION)
+	git tag -d $(VERSION)
+	git tag -a $(VERSION) -m "$(DESCRIPTION)"
 	goreleaser
 
 doc:

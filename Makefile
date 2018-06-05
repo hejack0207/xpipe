@@ -17,6 +17,7 @@ install:
 	go install
 
 gorelease:
+	rm -rf dist
 	git commit -m "$(DESCRIPTION)"
 	git tag -d $(VERSION)
 	git tag -a $(VERSION) -m "$(DESCRIPTION)"

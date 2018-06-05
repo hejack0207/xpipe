@@ -4,7 +4,7 @@ GO=$(shell which go)
 GOGET=$(GO) get
 
 clean:
-	-rm xpipe
+	rm -rf dist
 
 get_deps:
 	@echo -n "get dependencies... "

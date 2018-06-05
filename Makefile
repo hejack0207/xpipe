@@ -2,6 +2,7 @@ all: get_deps install doc
 
 GO=$(shell which go)
 GOGET=$(GO) get
+
 VERSION=v0.0.1
 DESCRIPTION=version 0.0.1
 

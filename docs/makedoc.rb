@@ -45,7 +45,7 @@ end
 
 allDocs = []
 
-Dir.glob("src/**/*.go") do |file|
+Dir.glob("impl/**/*.go") do |file|
     allDocs += process_file(file)
 end
 
